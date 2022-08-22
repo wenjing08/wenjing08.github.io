@@ -44,7 +44,7 @@
 
 .container {
 	width: 980px;
-	min-height: 1000px;
+	min-height: 700px;
 	max-height: 999999px; /* prevents font boosting */
 	margin: 56px auto 20px; /* top right bottom left */
 	box-shadow: 0 0 7px #122b6d; /*527bbd;*/
@@ -226,9 +226,12 @@ pre {
 div#footer {
 	font-size: small;
 	border-top: 1px solid #c0c0c0;
-	padding-top: 0.1em;
-	margin-top: 4.0em;
+	padding-top: 0.2em;
+	/*margin-top: 12.0em;*/
 	color: #c0c0c0;
+    height: 10px;
+    bottom: 55px;
+    position:absolute;
 }
 
 div#footer a {
@@ -237,7 +240,7 @@ div#footer a {
 
 div#footer-text {
 	float: left;
-	padding-bottom: 8px;
+	padding-bottom: 6px;
 }
 
 ul, ol, dl {
